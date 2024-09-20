@@ -13,7 +13,7 @@ def parsing(query,num) :
     handle.close()
 
     if record['IdList'] == None :
-        st.markdown("## **No Result **")
+        print("## **No Result **")
     # 下载并保存XML文件
     base_path = os.path.join(xml_dir,query)
 
