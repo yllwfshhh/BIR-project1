@@ -4,7 +4,7 @@ import re
 import sqlite3
 from nltk.tokenize import word_tokenize,sent_tokenize
 import nltk
-nltk.download('punkt')
+nltk.download('punkt_tab')
 
 def parse_pubmed_xml(xml_file):
     tree = ET.parse(xml_file)
