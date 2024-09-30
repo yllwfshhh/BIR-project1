@@ -42,4 +42,4 @@ def parsing(query,num) :
 
     return
 
-parsing("obesity",5)
+parsing("cancer",5)
